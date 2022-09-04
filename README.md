@@ -1,4 +1,4 @@
-# [Pyretic](https://microsoftlabs.github.io/Zoom-AutoRecorder/)
+# [Pyretic](https://microsoftlabs.github.io/Pyretic/)
 Installer Wizard for GNU/Linux Based Systems. (Facts written below are about prototype of the given project, I will try to implement most of the features. Help and advices on this project are most welcome)
 
 ### Introduction
@@ -18,12 +18,13 @@ Pyretic is FLOSS project aimed at easing the installing of packages, softwares o
 9. Show License and Readme file and permissions in wizards.
 10. Support for App Installation, Uninstallation and other features.
 11. Show list of installed softares and packages with feature to modify them(permission etc)
-12. Support creating Start Menu and Desktop Icons.
+12. Support creating Start Menu and Desktop Icons, taskbar Icons.
 13. Keep history of patches and updates with an option to roll back.
 14. Download from Binary available on Github/ Gitlab Release page with compatibility check(from ArchWiki etc).
 15. CLI Support(in Future Updates)
 16. Give user power to install softwares without switching logins.
-17. GivClean UI.(I only know tkinter but i think Kivy, PyQT may be a better choice)Clean UI.(I only know tkinter but i think Kivy, PyQT may be a better choice)
+17. Detect package being installed and recommend patches.
+18. In compilation from source, allow language selection(or detection), icons management, script for installation generation, script for start menu and desktop icons,taskbar icon,add directory, files.
 
 
 ### Download
