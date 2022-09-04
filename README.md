@@ -4,28 +4,34 @@ Installer Wizard for GNU/Linux Based Systems. (Facts written below are about pro
 ### Introduction
 Pyretic is FLOSS project aimed at easing the installing of packages, softwares on GNU/Linux based systems. It also aims to streamline the flow of software installation and inform the users about software license, details and other useful infos as well modify app permission during installation.
 
-### Features
-1. Standard Installer Wizard
+### Planned Features
+1. Include features of an Standard Installer Wizard.
+    - Show License, Readme file and *Permissions 'demanded and asked'* in Wizard.
+    - Support for App Installation, Uninstallation and other features.
+    - Support creating Start Menu, Desktop Icons and Taskbar Icons, if required or if the package didn't create one.
+    - Give user power to install softwares without switching logins (for non-adminstrators).
 2. Compile files from source using community based scripts. Just enter Github/ Gitlab/ Source Code links and you are good to go.(If I get enough help!)
-3. Install from .deb, .appImage, sharedLibrary files etc.
+    - In compilation from source, allow language selection (or detection), icons management, generation of script for installation and script for start menu ,desktop icons, taskbar icon, directory, files addition.
+3. Support installation from .deb, .appImage, sharedLibrary files etc.
 4. *Modify app permission while installing.*
-5. Clean UI.(I only know tkinter ,but I think Kivy or PyQT4 may be a better choice)
-  - I have ruled out PyQT5 due to its restrictive licensing scheme, else it was best suited for the project.
+5. Clean UI.(I only know tkinter at this moment, but I think Kivy or PyQT4 may be a better choice)
+    - I have ruled out PyQT5 due to its restrictive licensing scheme, else it was best suited for the project.
+    - In UI, show list of command going to be executed with an option to copy as well as an option to be disable them from getting executed from settings. 
 6. Apply Patches on projects based on community based scripts.
-  - An example would be like OBS doesn't work on low end PCs, for which it requires a flag to be applied to allow software encoding. The script can detect software name with user consent and search for any patches available and check PC specs and apply if applicable. [Somewhat more like windows compatibility checker.]
+    - Detect package being installed and recommend patches.
+    - Keep history of patches on installed apps with an option to roll back.
+    - An example would be, like OBS doesn't work on low end PCs, for which it requires a flag to be applied to allow software encoding. The script can detect software name with user consent and search for any patches available and check PC specs and apply if applicable. [Somewhat more like windows compatibility checker].
 7. Support all major package manager with room to add any new package manager in future if required.
-8. Allow user to modify order of preference of package manager, including blocking any if he/she wanted.
-9. Show License and Readme file and permissions in wizards.
-10. Support for App Installation, Uninstallation and other features.
-11. Show list of installed softares and packages with feature to modify them(permission etc)
-12. Support creating Start Menu and Desktop Icons, taskbar Icons.
-13. Keep history of patches and updates with an option to roll back.
-14. Download from Binary available on Github/ Gitlab Release page with compatibility check(from ArchWiki etc).
-15. CLI Support(in Future Updates)
-16. Give user power to install softwares without switching logins.
-17. Detect package being installed and recommend patches.
-18. In compilation from source, allow language selection(or detection), icons management, script for installation generation, script for start menu and desktop icons,taskbar icon,add directory, files.
+    - Allow user to modify order of preference of package manager, including blocking any if he/she wanted.
+8. Show list of installed softares and packages with feature to modify them (permission etc). Also, provide search feature to look for in Main App.
+    - Update apps with added feature of silent updates.
+9. Download from Binary available on Github/ Gitlab Release page with compatibility check(from ArchWiki etc) just from repo link.
+10. CLI Support(in Future Updates)
 
+### What it doesn't do
+1. It won't be able to do something that the specified package manager can't do.
+2. It is not a replacement for package manager, but an added layer of compatibility and simplicity to it.
+3. It can't do complex synatx functions, for which support may be added in later updates.
 
 ### Download
 [<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
@@ -34,6 +40,7 @@ Pyretic is FLOSS project aimed at easing the installing of packages, softwares o
 
 ### Notes
 - This app is not meant any other OS like Windows etc, however community based PR are welcome!
+- Build are copied from ZoomAutoRecorder Readme template and may not be perfect until an official release is posted on GitHub.
 
 ### Build an executable
 - Make sure you have fulfilled the following requirements:
@@ -86,7 +93,7 @@ After building the binary, copy the 'ttkthemes' folder from the site-packages fo
 - Since the app is in the early development phase, it might be possible that it may not work at all. Feel free to report any bugs if they exist.
      
 ### Alternatives
-- To be very honest, I couldn't find any alternatives even semi-functional. Prime reason for this amy be since majority of Linux userbase are tech-nerds they don't have any problem in using terminal which seems easier to them than actually making one.
-- However, If you get any get any alternatives feel free to raise a PR. 
+- To be very honest, I couldn't find any alternatives, even semi-functional. Prime reason for this is, since majority of Linux userbase are tech-nerds they don't have any problem in using terminal which seems easier to them than actually making one.
+- However, If you get any get any alternatives feel free to raise a PR. I will be glad to get one, even if it is closed soureced.
 
 ### Thanks!
