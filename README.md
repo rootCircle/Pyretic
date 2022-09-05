@@ -8,6 +8,7 @@ Pyretic is a FLOSS project aimed at easing the installation of packages and soft
 ### Planned Features
 1. Include standard wizard functionality in the installer.
     - Show License, Readme file, and Permissions "demanded and asked" in the Wizard.
+    - Show Simplified License for supported License with an option to fetch complete license. 
     - Support for app installation, uninstallation, and other features.
     - Support for creating Start Menu, Desktop Icons, and Taskbar Icons, if required or if the package didn't create one.
     - Give the user the power to install software without switching logins (for non-administrators).
@@ -25,6 +26,7 @@ Pyretic is a FLOSS project aimed at easing the installation of packages and soft
     - An example would be that OBS doesn't work on low-end PCs, for which a flag needs to be applied to allow software encoding. The script can detect software names with user consent and search for any patches available, as well as check PC specs and apply if applicable. [Something more like a Windows compatibility checker]. 
 7. Support for all major package managers with room to add any new package manager in the future if required.
     - Allow the user to change the order of package manager preferences, including blocking any that he or she desires.
+    - Allow user to search for packages for installation.
 8. Display a list of installed software and packages, along with the ability to modify them (permissions, etc.).Also, provide a search feature to look for in the main app.
     - Update apps with the added feature of silent updates.
 9. Download from Binary available on Github/ Gitlab Release page with compatibility check(from ArchWiki etc) just from repo link.
@@ -34,6 +36,14 @@ Pyretic is a FLOSS project aimed at easing the installation of packages and soft
 1. It won't be able to do something that the specified package manager can't do.
 2. It is not a replacement for the package manager, but an added layer of compatibility and simplicity to it.
 3. It can't do complex synatax functions, for which support may be added in later updates.
+
+### Why? gnome-software etc does almost the same feature 
+1. gnome-software store catalogue of softwares while pyretic doesn't.
+2. Support for apt, dpkg package etc
+3. Compile from source
+4. Patches
+5. Detect correct license for .deb, .appImage etc.
+6. It is a installer wizard and software manager while gnome-software-center is just a software catalogue and manager.
 
 ### Download
 [<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
