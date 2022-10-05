@@ -35,7 +35,7 @@ Pyretic is a FLOSS project aimed at easing the installation of packages and soft
 ### What it won't do
 1. It won't be able to do something that the specified package manager can't do.
 2. It is not a replacement for the package manager, but an added layer of compatibility and simplicity to it.
-3. It can't do complex synatax functions, for which support may be added in later updates.
+3. It can't do complex syntax functions, for which support may be added in later updates.
 
 ### Why? gnome-software etc does almost the same feature 
 1. gnome-software store catalogue of softwares while pyretic doesn't.
