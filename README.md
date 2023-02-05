@@ -1,4 +1,4 @@
-# [Pyretic](https://microsoftlabs.github.io/Pyretic/)
+# [Pyretic](https://rootCircle.github.io/Pyretic/)
 The Installer Wizard for GNU/Linux-Based Systems.
 - The facts written below are about the prototype of the given project. I will try to implement most of the features. Help and advice on this project are most welcome.
 
