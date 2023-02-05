@@ -48,11 +48,11 @@ Pyretic is a FLOSS project aimed at easing the installation of packages and soft
 ### Download
 [<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
      alt="Download from GitHub"
-     height="60">](https://github.com/Microsoftlabs/Pyretic/releases)
+     height="60">](https://github.com/rootCircle/Pyretic/releases)
 
 ### Notes
 - This app is not meant for any other OS like Windows, etc., but community-based PR is welcome!
-- Build's documentation is adopted from the [ZoomAutoRecorder](https://github.com/Microsoftlabs/Zoom-AutoRecorder) Readme template and hence may not be perfect until an official release is posted on GitHub.
+- Build's documentation is adopted from the [ZoomAutoRecorder](https://github.com/rootCircle/Zoom-AutoRecorder) Readme template and hence may not be perfect until an official release is posted on GitHub.
 
 ### Build an executable
 - Make sure you have fulfilled the following requirements:
